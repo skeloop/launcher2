@@ -63,6 +63,7 @@ def get_server_version():
     message = client.recv(1024).decode()
     return message
 
+# TODO: Update Download
 def update(_version):
     print("Eine neue Version is verfügbar: "+str(_version))
     print("Drücke (1) zum herunterladen oder (2) zum fortfahren...")
